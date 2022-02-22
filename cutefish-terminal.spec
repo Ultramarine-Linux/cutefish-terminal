@@ -9,7 +9,7 @@
 Name: cutefish-%{component_name}
 Version: 0.7
 #Version: 0.0.0git.%%(date +%Y%m%d).%%{git_refspec_short}
-Release: 1%{?dist}
+Release: 2%{?dist}
 License: GPLv3
 Summary: A terminal emulator for Cutefish
 
