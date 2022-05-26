@@ -29,7 +29,7 @@ Source0: https://github.com/cutefishos/%{component_name}/archive/refs/tags/%{ver
 A terminal emulator for Cutefish
 
 %prep
-%setup -qn %{component_name}-%{version}
+%autosetup -n %{component_name}-%{version}
 #%%setup -qn cutefishos-%%{component_name}-%%{git_refspec_short}
 
 %build
