@@ -1,0 +1,34 @@
+From 61752f37fc4aac26994847439ff4906be1279596 Mon Sep 17 00:00:00 2001
+From: trobonox <57040351+trobonox@users.noreply.github.com>
+Date: Thu, 26 May 2022 10:20:54 +0200
+Subject: [PATCH] Patch terminal dark theme to use white text instead of green
+
+---
+ qmltermwidget/lib/color-schemes/Cutefish-Dark.colorscheme | 6 +++---
+ 1 file changed, 3 insertions(+), 3 deletions(-)
+
+diff --git a/qmltermwidget/lib/color-schemes/Cutefish-Dark.colorscheme b/qmltermwidget/lib/color-schemes/Cutefish-Dark.colorscheme
+index 916f4dd..49ff241 100644
+--- a/qmltermwidget/lib/color-schemes/Cutefish-Dark.colorscheme
++++ b/qmltermwidget/lib/color-schemes/Cutefish-Dark.colorscheme
+@@ -90,14 +90,14 @@ Transparency=false
+ 
+ [Foreground]
+ Bold=false
+-Color=24,240,24
++Color=242,242,242
+ Transparency=false
+ 
+ [ForegroundIntense]
+ Bold=true
+-Color=24,240,24
++Color=242,242,242
+ Transparency=false
+ 
+ [General]
+-Description=Green on Black
++Description=White on Black (patched)
+ Opacity=1
+-- 
+2.36.1
+
